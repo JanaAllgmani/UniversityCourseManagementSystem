@@ -55,3 +55,14 @@ Developed a web-based university course management system that allows students a
 ## Results
 
 Successfully designed and implemented a university course management system with support for multiple user roles and database-driven functionality.
+
+## Screenshots
+
+### Entity Relationship Diagram
+![ERD Diagram](erd-diagram.png)
+
+### Statistics Dashboard
+![Statistics Dashboard](statistics-dashboard.png)
+
+### Student Dashboard
+![Student Dashboard](student-dashboard.png)
