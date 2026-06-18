@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add New Student</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        h2 {
+            text-align: center;
+            color: #282727ff;
+        }
+        form {
+            width: 400px;
+            margin: 0 auto;
+            background-color: #a5a5a5b1;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        label {
+            display: block;
+            margin-top: 7px;
+            font-weight: bold;
+        }
+        input[type="text"], input[type="email"], input[type="number"] {
+            width: 95%;
+            padding: 6px;
+            margin-top: 5px;
+            border: 1px solid #60398fb6;
+            border-radius: 4px;
+        }
+        button {
+            margin-top: 15px;
+            padding: 8px;
+            width: 98%;
+            background-color: #60398fb6;
+            border: none;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .back-btn {
+            text-align: center;
+            margin-top: 12px;
+        }
+        .back-btn button {
+            background-color: rgba(74, 38, 120, 0.58);
+            width: 400px;
+        }
+    </style>
+
+</head>
+<body>
+
+<h2>Add New Student</h2>
+
+<form action="savestud.php" method="POST">
+    <label>Name:</label>
+    <input type="text" name="name" required><br>
+
+    <label>Email:</label>
+    <input type="email" name="email" required><br>
+
+    <label>Age:</label>
+    <input type="number" name="age"><br>
+
+    <label>Major:</label>
+    <input type="text" name="major"><br>
+
+    <button type="submit">Save</button>
+</form>
+
+<div class="back-btn">
+    <button type="button" onclick="window.location.href='index.html'">Back</button>
+</div>
+
+</body>
+</html>
